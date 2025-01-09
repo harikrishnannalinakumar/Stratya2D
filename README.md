@@ -1,4 +1,20 @@
-# Stratya2D - Decompaction and backstripping
+# Straya2D - Decompaction and Backstripping
 
-Here, the user should define the "window_size", "poly_order", and "minimum_points_threshold" points. "window_size" determines the length of the filter window and "poly_order" can have values between 1 and 4 (both inclusive)  
-The "minimum_points_threshold” threshold is the value considered when smoothening the line. 
+Straya2D enhances traditional basin analysis by extending 1D decompaction and backstripping methodologies to a 2D framework using seismic cross-sections. This Python-based tool leverages image processing techniques to integrate horizon extraction, depth normalization, and Monte Carlo Simulation for uncertainty quantification.
+
+## Features
+
+- **Horizon Extraction**: Automatically extracts and processes seismic horizons from PNG or JPEG images.
+- **2D Decompaction and Backstripping**: Calculates changes in depositional thickness over time across a 2D seismic cross-section.
+- **Monte Carlo Simulation**: Quantifies uncertainties in tectonic subsidence and depositional thickness.
+- **Visualisation**: Provides dynamic 2D visualizations of basin evolution and horizon dynamics.
+
+## Installation
+```bash
+git clone https://github.com/harikrishnannalinakumar/Straya2D
+cd Straya2D
+pip install -r requirements.txt
+
+
+## Quick Start
+To run Straya2D, navigate to the project directory and execute:
