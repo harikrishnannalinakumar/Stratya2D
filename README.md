@@ -1,4 +1,4 @@
-# Straya2D - Kinematic Decompaction and Backstripping
+# Stratya2D - Kinematic Decompaction and Backstripping
 
 Straya2D enhances traditional basin analysis by extending 1D decompaction and backstripping methodologies to a 2D framework using seismic cross-sections. This Python-based tool leverages image processing techniques to integrate horizon extraction, depth normalisation, and Monte Carlo Simulation for uncertainty quantification.
 
