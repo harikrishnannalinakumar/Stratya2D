@@ -7,23 +7,23 @@ Straya2D enhances traditional basin analysis by extending 1D decompaction and ba
 - **Horizon Extraction**: Automatically extracts and processes seismic horizons from PNG or JPEG images.
 - **2D Decompaction and Backstripping**: Calculates changes in depositional thickness over time across a 2D seismic cross-section.
 - **Monte Carlo Simulation**: Quantifies uncertainties in tectonic subsidence and depositional thickness.
-- **Visualisation**: Provides dynamic 2D visualizations of basin evolution and horizon dynamics.
+- **Visualisation**: Provides dynamic 2D visualisations of basin evolution and horizon dynamics.
+- **Horizon Flattening**: Adjusts seismic horizons to a common reference level, enabling clearer stratigraphic interpretation and basin evolution analysis.
 
-## Installation
-```
-git clone https://github.com/harikrishnannalinakumar/Straya2D
-cd Straya2D
-pip install -r requirements.txt
-```
+## How to set up?
 
-## Quick Start
-To run Straya2D, navigate to the project directory and execute:
-```
-python straya2D.py
-```
+Download the repository folder and run the code using in any machine with python installed. 
 
-## Contributing
-Contributions are welcome! For major changes, please open an issue first to discuss what you would like to change.
+## Usage
 
-## Acknowledgments
-Thanks to the Australian Research Council Linkage Grant RGA85582.
+1) Provide an input image with the horizons marked.
+   
+2) Open input.py and specify the main parameters for tectonic subsidence calculation, including Monte Carlo simulation. Configure parameters for horizon extraction, smoothing, and distance normalisation, as well as the well location. *(Default values generally work well in most cases.)*
+   
+3) Run stratya.py. If the extracted horizons do not align correctly, adjust the horizon extraction parameters in Step 2 and re-run the process.
+
+4) For Horizon Flattening, run flattening.py.
+
+ For testing purposes choose the default image in the folder.
+
+
