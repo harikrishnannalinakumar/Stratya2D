@@ -2,7 +2,6 @@ cff-version: 1.2.0
 message: "If you use this software, please cite it as below."
 title: "Stratya2D"
 date-released: 2025
-type: "work"
 
 authors:
 - family-names: "Nalinakumar"
