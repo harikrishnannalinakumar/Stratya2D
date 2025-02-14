@@ -148,9 +148,9 @@ def run():
         colors = plt.cm.jet(np.linspace(0, 1, n))
         return colors
     
-    colors = get_unique_colors(len(lines_by_component))
+    # colors = get_unique_colors(len(lines_by_component))
     
-    plt.figure(figsize=(10, 6))
+    # plt.figure(figsize=(10, 6))
     
     for index, (label, lines) in enumerate(lines_by_component.items()):
         for line in lines:
@@ -159,7 +159,7 @@ def run():
             x2 = (x2 / image.shape[1]) * max_distance
             y1 = (y1 / image.shape[0]) * max_depth
             y2 = (y2 / image.shape[0]) * max_depth
-            plt.plot([x1, x2], [y1, y2], color=colors[index], linewidth=2)
+            # plt.plot([x1, x2], [y1, y2], color=colors[index], linewidth=2)
     
     # plt.title('Lines Grouped by Components')
     # plt.xlabel('Distance (km)')
