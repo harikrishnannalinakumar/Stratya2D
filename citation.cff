@@ -2,20 +2,15 @@ cff-version: 1.2.0
 message: "If you use this software, please cite it as below."
 title: "Stratya2D"
 date-released: 2025
+type: "work"
 
 authors:
 - family-names: "Nalinakumar"
   given-names: "Harikrishnan"
   orcid: "https://orcid.org/0000-0003-1700-0106"
-- family-names: "Makuluni"
-  given-names: "Patrick"
-  orcid: "https://orcid.org/0000-0003-0552-2396"
-- family-names: "Hauser"
-  given-names: "Juerg"
-  orcid: "https://orcid.org/0000-0002-8964-7331"
 - family-names: "Clark"
   given-names: "Stuart"
-  orcid: "https://orcid.org/0000-0002-0495-670X"  
-version: "1.0.0"
+  orcid: "https://orcid.org/0000-0002-0495-670X"
 
+version: "1.0.0"
 repository-code: "https://github.com/harikrishnannalinakumar/Kinematica-Backstripping-and-Decompaction"
